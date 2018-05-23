@@ -1,0 +1,31 @@
+{
+  "name": "synology-chat-bot",
+  "version": "0.1.0",
+  "description": "Synology Chatbot",
+  "keywords": [
+    "synology",
+    "synologychat",
+    "chatbot",
+    "chat"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "enskylin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ensky/synology-chat-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ensky/synology-chat-bot/issues",
+    "email": "enskylin@gmail.com"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  }
+}
